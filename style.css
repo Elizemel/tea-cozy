@@ -1,0 +1,139 @@
+body{
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+/*header*/
+header{
+  background-color: black;
+  border-bottom: 1px solid white;
+  display: flex;
+  height: 70px;
+  display: flex;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+
+  }
+nav{
+  display: inline-flex;
+  margin-left: 500px;
+}
+nav li{
+  display: inline-flex;
+  text-decoration: underline;
+  padding: 10px;
+    font-size: 25px;
+}
+nav a{
+  color: white;
+}
+.headerlogo{
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+/*end of the header*/
+/*main content*/
+main img{
+  width: 100%;
+  display: inline-flex;
+  position: relative;
+  }
+.ourmission{
+  display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+background-color:black;
+position: relative;
+justify-content:  flex-end;
+bottom: 500px;
+flex-wrap: wrap;
+}
+.ourmission1{
+  position: relative;
+  bottom: 100px;
+  background-color: black;
+  top: 12px;
+  font-size: 32px;
+}
+.mission{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#Tea{
+
+
+}
+.teatitle{
+  display: flex;
+ padding: 20px;
+  flex-direction: column;
+
+}
+.teatitle h1,h2{
+  font-size: 30px;
+}
+.box{
+  display: inline-flex;
+  height: 200px;
+  width: 300px;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  line-height:50px;
+}
+.box img{
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 300px;
+  flex-direction: column;
+}
+h3{
+  display: flex;
+  justify-content: center;
+}
+#locations{
+  height: 1000px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+height: 500px;
+}
+.locations h2{
+  margin-top: 300px;
+}
+.locationbox{
+  display: inline-flex;
+  line-height: 70px;
+  background-color: black;
+  margin-left: 40px;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+.locationbox h3{
+  margin: 0 auto;
+}
+.ltitle{
+  margin-top: 200px;
+  position: relative;
+  }
+  .locationbox, .ltitle{
+    position: relative;
+    top: 50px;
+  }
+/* end of main content*/
+/*start of footer*/
+footer{
+  background-color: black;
+  line-height: 70px;
+  height: 200px;
+
+}
+footer h5{
+  font-size: 25px;
+}
